@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a232e;
+  --foreground: #BFD7EA;
+  --primary: #FF5A5F;
+  --secondary: #1a3a4a;
+  --accent: #BFD7EA;
+  --navbar-bg: rgba(8, 126, 139, 0.7);
+  --card-bg: rgba(34, 49, 63, 0.7);
+  --button-bg: #FF5A5F;
+  --button-text: #fff;
+  --button-hover-bg: #BFD7EA;
+  --link: #BFD7EA;
+  --link-hover: #FF5A5F;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--link);
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--link-hover);
+}
+
+.navbar {
+  background: var(--navbar-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255,90,95,0.3);
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+}
+
+.animated-bg {
+  background: linear-gradient(to bottom right, #0a232e, #1a3a4a, #087E8B);
+}
+
+.base-radial {
+  background: radial-gradient(circle at 50% 120%, rgba(191,215,234,0.10), rgba(0,0,0,0));
+}
+
+.rotating-gradient {
+  background: linear-gradient(to top right, #BFD7EA1A, #087E8B1A, #FF5A5F1A);
 }
