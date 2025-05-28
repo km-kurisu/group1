@@ -4,10 +4,10 @@ import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 export default function Home() {
   const sections = [
     {
-      name: "Sarah Johnson",
+      name: "Insha Bhimani",
       description: "Creative Director with 10+ years of experience in brand strategy and visual design. Passionate about creating memorable brand experiences.",
       image: "/placeholder1.jpg",
-      buttons: ["View Portfolio", "Contact", "Book Meeting"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiLinkedin, url: "linkedin.com/sarahjohnson", label: "LinkedIn" },
         { icon: FiGithub, url: "github.com/sarahjohnson", label: "GitHub" },
@@ -15,21 +15,21 @@ export default function Home() {
       ]
     },
     {
-      name: "Michael Chen",
+      name: "Kamlesh Mistry",
       description: "Senior Software Engineer specializing in full-stack development. Expert in React, Node.js, and cloud architecture.",
       image: "/placeholder2.jpg",
-      buttons: ["GitHub", "Resume", "Projects"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
-        { icon: FiGithub, url: "github.com/michaelchen", label: "GitHub" },
+        { icon: FiGithub, url: "github.com/km-kurisu", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/michaelchen", label: "LinkedIn" },
-        { icon: FiInstagram, url: "instagram.com/michaelchen", label: "Instagram" }
+        { icon: FiInstagram, url: "instagram.com/kamleshm_02", label: "Instagram" }
       ]
     },
     {
-      name: "Emma Rodriguez",
+      name: "Swayam Mhaske",
       description: "UX/UI Designer focused on creating intuitive and accessible digital experiences. Strong advocate for user-centered design.",
       image: "/placeholder3.jpg",
-      buttons: ["Portfolio", "Case Studies", "Design Blog"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiLinkedin, url: "linkedin.com/emmarodriguez", label: "LinkedIn" },
         { icon: FiGithub, url: "github.com/emmarodriguez", label: "GitHub" },
@@ -37,10 +37,10 @@ export default function Home() {
       ]
     },
     {
-      name: "David Kim",
+      name: "Vinodkumar Choudhary",
       description: "Product Manager with expertise in agile methodologies and product strategy. Successfully launched multiple SaaS products.",
       image: "/placeholder4.jpg",
-      buttons: ["Product Blog", "Speaking", "Contact"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiLinkedin, url: "linkedin.com/davidkim", label: "LinkedIn" },
         { icon: FiGithub, url: "github.com/davidkim", label: "GitHub" },
@@ -48,10 +48,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Sophia Patel",
+      name: "Chinmay Gawad",
       description: "Marketing Director specializing in digital marketing and growth strategies. Expert in SEO, content marketing, and analytics.",
       image: "/placeholder5.jpg",
-      buttons: ["Marketing Blog", "Services", "Case Studies"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiLinkedin, url: "linkedin.com/sophiapatel", label: "LinkedIn" },
         { icon: FiGithub, url: "github.com/sophiapatel", label: "GitHub" },
@@ -59,10 +59,10 @@ export default function Home() {
       ]
     },
     {
-      name: "James Wilson",
+      name: "Yash Gawad",
       description: "Data Scientist with a focus on machine learning and AI. PhD in Computer Science with multiple research publications.",
       image: "/placeholder6.jpg",
-      buttons: ["Research", "Publications", "Projects"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiGithub, url: "github.com/jameswilson", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/jameswilson", label: "LinkedIn" },
@@ -70,10 +70,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Olivia Martinez",
+      name: "Swagat Bhoir",
       description: "Content Strategist and Copywriter. Expert in creating engaging content that drives conversions and builds brand voice.",
       image: "/placeholder7.jpg",
-      buttons: ["Writing Portfolio", "Blog", "Services"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiLinkedin, url: "linkedin.com/oliviamartinez", label: "LinkedIn" },
         { icon: FiGithub, url: "github.com/oliviamartinez", label: "GitHub" },
@@ -81,10 +81,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Alex Thompson",
+      name: "Neel Pawaskar",
       description: "DevOps Engineer with expertise in cloud infrastructure and automation. Certified AWS and Azure professional.",
       image: "/placeholder8.jpg",
-      buttons: ["GitHub", "Blog", "Contact"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiGithub, url: "github.com/alexthompson", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/alexthompson", label: "LinkedIn" },
@@ -92,10 +92,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Isabella Lee",
+      name: "Simut Chaurasyia",
       description: "Frontend Developer specializing in modern JavaScript frameworks and responsive design. Passionate about web accessibility.",
       image: "/placeholder9.jpg",
-      buttons: ["Portfolio", "GitHub", "Blog"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiGithub, url: "github.com/isabellalee", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/isabellalee", label: "LinkedIn" },
@@ -103,10 +103,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Daniel Park",
+      name: "Shreyash Patil",
       description: "Mobile App Developer with expertise in iOS and Android development. Created multiple successful apps with millions of downloads.",
       image: "/placeholder10.jpg",
-      buttons: ["App Store", "Play Store", "Portfolio"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiGithub, url: "github.com/danielpark", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/danielpark", label: "LinkedIn" },
@@ -114,21 +114,10 @@ export default function Home() {
       ]
     },
     {
-      name: "Daniel Park",
+      name: "Raj Kushwaha",
       description: "Mobile App Developer with expertise in iOS and Android development. Created multiple successful apps with millions of downloads.",
       image: "/placeholder10.jpg",
-      buttons: ["App Store", "Play Store", "Portfolio"],
-      socialLinks: [
-        { icon: FiGithub, url: "github.com/danielpark", label: "GitHub" },
-        { icon: FiLinkedin, url: "linkedin.com/danielpark", label: "LinkedIn" },
-        { icon: FiInstagram, url: "instagram.com/danielpark", label: "Instagram" }
-      ]
-    },
-    {
-      name: "Daniel Park",
-      description: "Mobile App Developer with expertise in iOS and Android development. Created multiple successful apps with millions of downloads.",
-      image: "/placeholder10.jpg",
-      buttons: ["App Store", "Play Store", "Portfolio"],
+      buttons: ["View Portfolio", "Shop", "Masterpage"],
       socialLinks: [
         { icon: FiGithub, url: "github.com/danielpark", label: "GitHub" },
         { icon: FiLinkedin, url: "linkedin.com/danielpark", label: "LinkedIn" },
@@ -173,8 +162,8 @@ export default function Home() {
 
         {/* Image Section */}
         <section className="flex justify-center mb-12 sm:mb-16">
-          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#BFD7EA] bg-[#1a3a4a]/60 backdrop-blur-lg p-2">
-            <img src="/globe.svg" alt="Group 1 Globe" className="w-[320px] h-[320px] object-contain" />
+          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#BFD7EA] bg-[#1a3a4a]/60 backdrop-blur-lg p-2 flex items-center justify-center">
+            <img src="/g1.jpg" alt="Group 1 Globe" className="w-auto h-auto max-w-full max-h-[560px]" />
           </div>
         </section>
 
